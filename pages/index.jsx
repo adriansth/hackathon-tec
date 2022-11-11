@@ -1,5 +1,8 @@
 import Head from 'next/head'
 
+import Navbar from '../components/Navbar';
+import App from '../components/App';
+
 export default function Home() {
   return (
     <div>
@@ -10,7 +13,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Hackathon Challenge 6</h1>
+        <Navbar />
+        <App />
       </main>
     </div>
   )
